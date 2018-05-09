@@ -1,0 +1,97 @@
+/* Nav bar style */
+.navbar {
+    width: 100%;
+    height: auto;
+    padding: 2.5rem 5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar ul {
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar .leftNav {
+    width: 8%;
+  }
+  
+  .navbar .leftNav img {
+    width: 12rem;
+  }
+  
+  .navbar .rightNav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .navbar .rightNav li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 3rem;
+    text-align: center;
+  }
+
+  /* Hero image style */
+.heroImage {
+    margin: 3rem 5rem;
+    background-image:  linear-gradient(to right bottom, 
+    rgba(243, 216, 187, 0.7), 
+    rgba(246, 219, 189, 0.7)), 
+    url("../../images/homebg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.smallSeperator {
+  margin: auto;
+  text-align: center;
+  width: 5rem;
+  content: " ";
+  display: block;
+  border-top: solid 2px #000;
+}
+
+.heroImage .textBox{
+  width: 40%;
+  text-align: center;
+}
+
+.textBox h1 {
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+
+.textBox p {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.textBox button, .bestwork button, .contact-form button, .content-text button {
+  margin-top: 5rem;
+  outline: none;
+  border: none;
+  background-color: #000;
+  border-radius: 3rem;
+  color: white;
+  font-size: 1.9rem;
+  padding: 1rem 2.5rem;
+  transition: ease-in 0.2s;
+  cursor: pointer;
+}
+
+.textBox button:hover, .bestwork button:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+  
+  

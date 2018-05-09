@@ -1,0 +1,52 @@
+/* best work section */
+
+.bestwork {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem;
+    padding-bottom: 7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+            "pic1 pic2 pic3"
+            "pic4 pic2 pic6"
+            "pic4 pic5 pic6";
+    grid-gap: 3rem;
+}
+
+.work-1 {
+    grid-area: pic1;
+}
+
+.work-2 {
+    grid-area: pic2;
+}
+
+.work-3 {
+    grid-area: pic3;
+}
+
+.work-4 {
+    grid-area: pic4;
+}
+
+.work-5 {
+    grid-area: pic5;
+}
+
+.work-6 {
+    grid-area: pic6;
+}
+
+.work-wrapper img {
+    width: 100%;
+}
+
+.bestwork button {
+    text-align: center;
+}
